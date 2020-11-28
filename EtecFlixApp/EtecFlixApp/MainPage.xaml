@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EtecFlixApp.MainPage"
+             xmlns:local="clr-namespace:EtecFlixApp;"
+             Title="ETEC APP ETECFLIX"
+             BackgroundColor="#2f2f30" >
+
+    <StackLayout>
+        <Image x:Name="logo" HeightRequest="150" />
+        <ScrollView>
+            <Grid RowSpacing="20" ColumnSpacing="10" Padding="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+
+                <Button Grid.Row="0" Grid.Column="0"
+                        Text="Aventura"
+                        Style="{StaticResource ButtonVermelhoMenu}"
+                        Clicked="btn_Open_Aventura" />
+                
+                <Button Grid.Row="0" Grid.Column="1"
+                        Text="Comedia"
+                        Style="{StaticResource ButtonVermelhoMenu}"
+                        Clicked="btn_OpenComedia" />
+
+
+            </Grid>            
+        </ScrollView>
+    </StackLayout>
+
+</ContentPage>
