@@ -32,7 +32,32 @@
                         Text="Comedia"
                         Style="{StaticResource ButtonVermelhoMenu}"
                         Clicked="btn_OpenComedia" />
+                
+                <Button Grid.Row="1" Grid.Column="0"
+                        Text="Drama"
+                        Style="{StaticResource ButtonVermelhoMenu}"
+                        Clicked="btn_OpenDrama" />
 
+                <Button Grid.Row="1" Grid.Column="1"
+                        Text="Terror"
+                        Style="{StaticResource ButtonVermelhoMenu}"
+                        Clicked="btn_OpenTerror" />
+                <Button Grid.Row="2" Grid.Column="0"
+                        Text="Ficção Científica"
+                        Style="{StaticResource ButtonVermelhoMenu}"
+                        Clicked="btn_OpenFiccao" />
+
+                <Button Grid.Row="2" Grid.Column="1"
+                        Text="Suspense"
+                        Style="{StaticResource ButtonVermelhoMenu}"
+                        Clicked="btn_OpenSispense" />
+
+                <Button Grid.Row="3" Grid.Column="0"
+                        Text="Infantil"
+                        Style="{StaticResource ButtonVermelhoMenu}"
+                        Clicked="btn_OpenInfantil"/>
+                
+                
 
             </Grid>            
         </ScrollView>
